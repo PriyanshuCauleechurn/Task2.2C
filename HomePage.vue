@@ -4,6 +4,15 @@ import {ref} from 'vue'
 
 const header = ref('Furniture Pro Ltd')
 
+const name = ref('')
+const email = ref('')
+const message = ref('')
+const submitted = ref(false)
+
+const submitForm = ()=>{
+    submitted.value = true;
+}
+
 </script>
 
 <template>
